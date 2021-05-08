@@ -1,0 +1,35 @@
+body{
+   background-color: #afd0f6;
+}
+
+section{
+    display: flex;
+}
+
+.card1{
+    background-color:  #df96f1;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 18rem
+}
+.card2{
+    background-color:  #14ce9f;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 18rem
+}
+.card3{
+    background-color:  #0a82c8;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 18rem
+}
+
+
+
+.card-white{
+    background-color: white;
+    border-radius: 1rem;
+    width: 13rem;
+    height: 11rem;
+}
