@@ -1,0 +1,68 @@
+:root {
+--back-gr: #e4e2e2;
+--blue-button: #6dabe4;
+
+}
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--back-gr) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    background-color: white;
+    border-radius: 1rem;
+    width: 55rem;
+    height: 30rem;
+    padding: 2rem 5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+input, select{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+input[type="text"],input[type="email"], input[type="password"]{
+    width: 100%;
+}
+
+aside img{
+    width: 80%
+
+}
+
+#principal form span{
+    font-size: 0.7rem;
+}
+
+button{
+    background-color: var(--blue-button);
+    padding:  10px 20px;
+    margin-top: 1rem;
+    border-radius: 5px ;
+    border: 0;
+    color: white;
+}
+
+
