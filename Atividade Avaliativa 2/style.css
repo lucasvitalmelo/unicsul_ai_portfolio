@@ -11,10 +11,11 @@ body{
 
 section{
     display: flex;
-    justify-content: space-between;
-
     text-align: center;
 }
+
+
+
 h1, h4 {
     color: white;
     font-family: Verdana;
@@ -23,7 +24,12 @@ h1, h4 {
 h2{
 color: rgb(70, 70, 70);
 font-size: 25px;
+}
 
+p {
+    text-align: initial;
+    font-size: 15px;
+    margin-left: 2.5rem ;
 }
 
 /* card colors */
@@ -37,13 +43,13 @@ font-size: 25px;
         background-color:  #0a82c8;
     }
 
-.card1, .card2, .card3{
+    section > div{
         border-radius: 1rem;
         padding: 10px;
         display: flex row;
         width: 15rem;
-        height: 29;
         align-items: center;
+        margin: 0 20px;
 }
 
 
