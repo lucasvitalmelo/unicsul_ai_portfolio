@@ -9,39 +9,9 @@ body{
     margin: 0;
 }
 
-section{
-    display: flex;
-    text-align: center;
+
+
 }
-
-
-
-h1, h4 {
-    color: white;
-    font-family: Verdana;
-}
-
-h2{
-color: rgb(70, 70, 70);
-font-size: 25px;
-}
-
-p {
-    text-align: initial;
-    font-size: 15px;
-    margin-left: 2.5rem ;
-}
-
-/* card colors */
-    .card1{
-        background-color:  #df96f1;
-    }
-    .card2{
-        background-color:  #14ce9f;
-    }
-    .card3{
-        background-color:  #0a82c8;
-    }
 
     section > div{
         border-radius: 1rem;

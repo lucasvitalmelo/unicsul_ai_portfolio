@@ -1,0 +1,52 @@
+
+* {
+    font-family: Verdana;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    height:auto;
+}
+
+header {
+    background-color:black;
+    border-radius: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 60rem;
+    height: 4rem;
+    margin-top: 3rem;
+}
+
+img {
+    max-width: 200px;
+    
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+section{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 80vh;
+    margin: 0;
+}
+
+section > div{
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 15px;
+    width: auto;
+    align-items: center;
+    margin: 0 5px;
+}
