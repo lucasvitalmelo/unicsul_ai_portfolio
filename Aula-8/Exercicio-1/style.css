@@ -1,52 +1,59 @@
-
 * {
-    font-family: Verdana;
+  font-family: Verdana;
 }
 
+body {
+  width: 100%;
+  margin: 0 auto;
+}
 
-.container {
-    max-width: 960px;
-    margin: auto;
-    height:auto;
+main {
+  width: 960px;
+  margin: 0 auto;
 }
 
 header {
-    background-color:black;
-    border-radius: 16rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 60rem;
-    height: 4rem;
-    margin-top: 3rem;
+  background-color: black;
+  border-radius: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 60rem;
+  height: 4rem;
+  margin-top: 3rem;
 }
 
 img {
-    max-width: 200px;
-    
+  max-width: 200px;
 }
 
 figcaption {
-    text-align: center;
+  text-align: center;
 }
 
-
-section{
-    background-color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    height: 80vh;
-    margin: 0;
+section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  height: 80vh;
+  margin: 0;
 }
 
-section > div{
-    border: 1px solid;
-    border-radius: 1rem;
-    padding: 15px;
-    width: auto;
-    align-items: center;
-    margin: 0 5px;
+section > div {
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 15px;
+  width: auto;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.card1 > div,
+.card2 > div,
+.card3 > div {
+  border-bottom: 2px solid;
+  padding-bottom: 15px;
 }

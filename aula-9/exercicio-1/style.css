@@ -1,0 +1,60 @@
+* {
+  font-family: Verdana;
+}
+
+body {
+  background: rgb(0, 5, 46);
+  text-align: center;
+  margin: 0;
+}
+
+section {
+  background-color: white;
+  border-radius: 3rem;
+  max-width: 60rem;
+  margin: 1rem auto;
+  padding: 0.5rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+div {
+  text-align: justify;
+}
+
+img {
+  width: 50%;
+}
+
+footer > h5 {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  section {
+    width: 70%;
+  }
+
+  img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  section {
+    width: 75%;
+  }
+
+  img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+    width: 80%;
+  }
+}
