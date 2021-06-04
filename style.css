@@ -49,12 +49,11 @@ span {
   border: 1px solid rgb(189, 189, 189);
 }
 
-footer {
-  margin-top: 9rem;
+.meio2 > section > a:hover {
+  background-color: transparent;
+  color: #fff;
 }
 
-@media (min-width: 576px) and (max-width: 768) {
-  .row {
-    /* display: flex !important; */
-  }
+footer {
+  margin-top: 5.5rem;
 }
