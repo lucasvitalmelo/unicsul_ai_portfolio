@@ -1,0 +1,22 @@
+* {
+  font-family: verdana;
+}
+
+body {
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  background-color: #facd39;
+  border-radius: 20px;
+  height: 10rem;
+  width: 35rem;
+  padding: 0 1rem;
+}
